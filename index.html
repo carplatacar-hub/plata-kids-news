@@ -1,0 +1,313 @@
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Plata Kids Daily News — November 8, 2026</title>
+<link rel="manifest" href="/manifest.json">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Plata News">
+<meta name="theme-color" content="#0A1628">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  :root{color-scheme:light dark;--bg:#F0F5FF;--bg2:#E2ECFA;--surface:#FFFFFF;--text:#0C1830;--text-mid:#3A5080;--text-faint:#7A90BC;--border:#C4D4EE;--blue:#1655D0;--teal:#0EA9A0;--green:#1A9E56;--amber:#C49000;--purple:#6B30CC;--blue-soft:#E6EEFF;--teal-soft:#E6FAF8;--green-soft:#EBF8F0;--amber-soft:#FFF8E1;--purple-soft:#F0EAFF}
+  @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#080F20;--bg2:#0E1830;--surface:#111E38;--text:#E6EDFB;--text-mid:#8099C4;--text-faint:#506080;--border:#1C2D50;--blue-soft:#0A1430;--teal-soft:#051412;--green-soft:#071A0F;--amber-soft:#181200;--purple-soft:#160B2C}}
+  :root[data-theme="dark"]{--bg:#080F20;--bg2:#0E1830;--surface:#111E38;--text:#E6EDFB;--text-mid:#8099C4;--text-faint:#506080;--border:#1C2D50;--blue-soft:#0A1430;--teal-soft:#051412;--green-soft:#071A0F;--amber-soft:#181200;--purple-soft:#160B2C}
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Nunito',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;line-height:1.6}
+  .masthead{background:#060E22;color:#E6EDFB;text-align:center;padding:2rem 1rem 1.6rem;position:relative;overflow:hidden}
+  .masthead::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 15% 50%,rgba(22,85,208,.35) 0%,transparent 55%),radial-gradient(ellipse at 85% 50%,rgba(14,169,160,.25) 0%,transparent 55%);pointer-events:none}
+  .masthead-title{font-family:'Bangers',cursive;font-size:clamp(2.4rem,10vw,6rem);letter-spacing:.05em;line-height:1;background:linear-gradient(135deg,#60AAFB 0%,#1DAF9F 45%,#A78BFA 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;position:relative}
+  .masthead-tagline{font-size:.9rem;font-weight:700;color:rgba(230,237,251,.55);letter-spacing:.15em;text-transform:uppercase;margin-top:.3rem;position:relative}
+  .masthead-meta{display:flex;justify-content:center;gap:1.2rem;flex-wrap:wrap;margin-top:.9rem;font-size:.82rem;font-weight:600;color:rgba(230,237,251,.45);position:relative}
+  .theme-toggle{position:absolute;top:12px;right:12px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:17px;width:34px;height:34px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:background .2s;z-index:2}
+  .theme-toggle:hover{background:rgba(255,255,255,.22)}
+  .value-strip{background:linear-gradient(90deg,#0A3A9A 0%,#1655D0 100%);color:white;padding:.85rem 1.2rem;text-align:center;font-size:.95rem;font-weight:700;letter-spacing:.01em}
+  .value-strip strong{font-weight:900}
+  .page-wrap{max-width:900px;margin:0 auto;padding:1.5rem 1rem 3rem}
+  .lead-story{background:linear-gradient(135deg,#0A2A80 0%,#1655D0 60%,#1090C0 100%);color:#fff;border-radius:1.2rem;padding:1.8rem;margin-bottom:1.6rem;position:relative;overflow:hidden}
+  .lead-story::after{content:'🏆';position:absolute;right:1.2rem;bottom:-.5rem;font-size:5.5rem;opacity:.12;transform:rotate(-8deg);pointer-events:none}
+  .lead-badge{display:inline-block;background:rgba(255,255,255,.22);color:#fff;font-size:.7rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase;padding:.22em .9em;border-radius:999px;margin-bottom:.7rem}
+  .lead-emoji{font-size:2.2rem;display:block;margin-bottom:.4rem}
+  .lead-story h2{font-size:clamp(1.4rem,4vw,1.9rem);font-weight:900;line-height:1.25;margin-bottom:.7rem}
+  .lead-story p{font-size:1rem;font-weight:600;opacity:.93;max-width:640px}
+  .section-header{display:flex;align-items:center;gap:.6rem;margin-bottom:.9rem;margin-top:1.8rem}
+  .accent-bar{width:5px;height:2rem;border-radius:3px;flex-shrink:0}
+  .blue-bar{background:var(--blue)}.teal-bar{background:var(--teal)}.green-bar{background:var(--green)}.amber-bar{background:var(--amber)}.purple-bar{background:var(--purple)}
+  .section-header h3{font-size:1.25rem;font-weight:900;letter-spacing:.02em}
+  .section-icon{font-size:1.3rem}
+  .card-single{background:var(--surface);border:1.5px solid var(--border);border-radius:1rem;padding:1.3rem 1.4rem;transition:transform .18s ease,box-shadow .18s ease}
+  .card-single:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.1)}
+  .grid-2{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1rem}
+  .grid-3{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+  .card{background:var(--surface);border:1.5px solid var(--border);border-radius:1rem;padding:1.1rem 1.2rem;transition:transform .18s ease,box-shadow .18s ease}
+  .card:hover{transform:translateY(-3px);box-shadow:0 8px 22px rgba(0,0,0,.1)}
+  .card-emoji{font-size:1.7rem;margin-bottom:.4rem;display:block}
+  .card-tag{font-size:.66rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;padding:.18em .65em;border-radius:999px;display:inline-block;margin-bottom:.45rem}
+  .blue-tag{background:var(--blue-soft);color:var(--blue)}.teal-tag{background:var(--teal-soft);color:var(--teal)}.green-tag{background:var(--green-soft);color:var(--green)}.amber-tag{background:var(--amber-soft);color:#9a7000}.purple-tag{background:var(--purple-soft);color:var(--purple)}
+  .card h4{font-size:.98rem;font-weight:800;line-height:1.3;margin-bottom:.45rem}
+  .card p{font-size:.88rem;color:var(--text-mid);font-weight:600;line-height:1.55}
+  .card-single h4{font-size:1.05rem;font-weight:800;line-height:1.3;margin-bottom:.5rem}
+  .card-single .card-emoji{font-size:1.9rem}
+  .card-single .card-tag{font-size:.68rem}
+  .card-single p{font-size:.9rem;color:var(--text-mid);font-weight:600;line-height:1.6}
+  .score-badge{display:inline-block;background:var(--blue-soft);color:var(--blue);font-size:.8rem;font-weight:900;padding:.2em .7em;border-radius:6px;margin-bottom:.4rem;font-family:'Bangers',cursive;letter-spacing:.08em}
+  .score-badge.green{background:var(--green-soft);color:var(--green)}
+  .score-badge.red{background:#FFF0EC;color:#C03010}
+  .jokes-section{display:flex;flex-direction:column;gap:.85rem}
+  .joke-box{background:var(--purple-soft);border:2px solid var(--purple);border-radius:1rem;padding:1.1rem 1.4rem;display:flex;align-items:flex-start;gap:.9rem}
+  .joke-emoji-big{font-size:2rem;flex-shrink:0}
+  .joke-label{font-size:.68rem;font-weight:900;text-transform:uppercase;letter-spacing:.12em;color:var(--purple);margin-bottom:.25rem}
+  .joke-text{font-size:.92rem;font-weight:700;color:var(--text);line-height:1.5}
+  .joke-punchline{font-size:.92rem;font-weight:800;color:var(--purple);margin-top:.25rem}
+  .amber-block{background:var(--amber-soft);border:2px solid var(--amber);border-radius:1.2rem;padding:1.6rem 1.4rem 1.8rem}
+  .fact-chip-single{background:var(--surface);border:1.5px solid var(--border);border-radius:.9rem;padding:1rem 1.2rem;display:flex;gap:.9rem;align-items:flex-start;margin-bottom:1.6rem}
+  .chip-emoji{font-size:2rem;flex-shrink:0;line-height:1;margin-top:.05rem}
+  .chip-text{font-size:.9rem;font-weight:700;color:var(--text);line-height:1.55}
+  .quiz-label{font-size:.7rem;font-weight:900;text-transform:uppercase;letter-spacing:.12em;color:#9a7000;margin-bottom:.5rem}
+  .quiz-question{background:var(--surface);border:1.5px solid var(--border);border-radius:.9rem;padding:1.1rem 1.2rem}
+  .quiz-question p{font-size:1rem;font-weight:800;color:var(--text);margin-bottom:.8rem}
+  .quiz-choices{display:flex;flex-direction:column;gap:.45rem}
+  .choice-btn{background:var(--bg2);border:2px solid var(--border);border-radius:.6rem;padding:.55rem 1rem;font-family:'Nunito',sans-serif;font-size:.88rem;font-weight:700;color:var(--text);cursor:pointer;text-align:left;transition:background .15s,border-color .15s,transform .1s}
+  .choice-btn:hover:not(:disabled){background:var(--border);transform:translateX(3px)}
+  .choice-btn.correct{background:var(--green-soft);border-color:var(--green);color:#155724}
+  .choice-btn.wrong{background:#FFF0EC;border-color:#C03010;color:#721c24}
+  .quiz-feedback{display:none;margin-top:.6rem;font-size:.88rem;font-weight:700;padding:.5rem .8rem;border-radius:.5rem;color:var(--text-mid);background:var(--bg2)}
+  .quiz-score{display:none;text-align:center;padding:1.2rem 1rem;background:var(--surface);border-radius:1rem;border:2px solid var(--amber);margin-top:1rem}
+  .score-emoji{font-size:2.8rem;display:block;margin-bottom:.4rem}
+  .score-title{font-size:1.3rem;font-weight:900;color:var(--text);margin-bottom:.2rem}
+  .score-msg{font-size:.9rem;font-weight:700;color:var(--text-mid)}
+  .quiz-restart{display:inline-block;margin-top:.9rem;background:var(--amber);color:#fff;font-family:'Nunito',sans-serif;font-size:.85rem;font-weight:800;padding:.45rem 1.3rem;border-radius:999px;border:none;cursor:pointer;transition:opacity .15s}
+  .quiz-restart:hover{opacity:.85}
+  .divider{border:none;border-top:2px dashed var(--border);margin:1.6rem 0}
+  .footer{text-align:center;color:var(--text-faint);font-size:.8rem;font-weight:700;padding-top:1rem;margin-top:2rem;border-top:1.5px solid var(--border);letter-spacing:.05em}
+  .footer strong{color:var(--text-mid)}
+  @media(max-width:480px){.lead-story{padding:1.4rem 1.1rem}.page-wrap{padding:1rem .75rem 2rem}.joke-box{flex-direction:column;gap:.5rem}}
+</style>
+</head>
+<body>
+<header class="masthead">
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌙</button>
+  <div class="masthead-title">Plata Kids Daily News</div>
+  <div class="masthead-tagline">Real News. Big World. Made for You.</div>
+  <div class="masthead-meta">
+    <span>📅 Sunday, November 8, 2026</span>
+    <span>📰 Vol. 1 · Issue 312</span>
+    <span>⚽ European Football Edition 🌍</span>
+  </div>
+</header>
+<div class="value-strip">🤝 <strong>Today's Value: Teamwork</strong> — Even the best soccer player needs 10 teammates to win! Every great goal starts with a great pass. Together is always better. 💙⚽</div>
+<main class="page-wrap">
+
+  <!-- LEAD STORY -->
+  <div class="lead-story">
+    <span class="lead-badge">🏆 Champions League · Matchday 4</span>
+    <span class="lead-emoji">🤯</span>
+    <h2>NINE Goals! 🤯 Como Destroys Lens in the Most Insane CL Game of the Year!</h2>
+    <p>Italian club <strong>Como FC</strong> just wrote history! 🇮🇹 They smashed French side <strong>Lens 9–1</strong> in the <strong>Champions League</strong> — one of the biggest wins in the competition in YEARS! 🚀 Just two seasons ago, Como were still in Serie B (Italy's second division). Now they're Champions League giants! Goals rained down like confetti 🎊 and Lens couldn't stop the avalanche. This is what football dreams are made of! ⭐</p>
+  </div>
+
+  <hr class="divider">
+
+  <!-- CHAMPIONS LEAGUE RESULTS -->
+  <div class="section-header">
+    <div class="accent-bar blue-bar"></div><span class="section-icon">🏆</span><h3>Champions League Matchday 4 Results ⭐</h3>
+  </div>
+  <div class="grid-3">
+    <div class="card">
+      <span class="card-emoji">⚽🤩</span>
+      <span class="card-tag blue-tag">Champions League</span>
+      <div class="score-badge">REAL MADRID 3–2 AEK ATHENS</div>
+      <h4>Valverde Saves Madrid at the Last Second! 🎉</h4>
+      <p><strong>Federico Valverde</strong> struck late to give <strong>Real Madrid</strong> a dramatic 3–2 win over AEK Athens in Greece! 🇬🇷 Madrid were wobbling — but Valverde came to the rescue like a superhero! 🦸</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">😲🔴</span>
+      <span class="card-tag blue-tag">Champions League</span>
+      <div class="score-badge red">FENERBAHCE 3–2 LIVERPOOL</div>
+      <h4>Liverpool SHOCKED by Turkish Giants! 😱</h4>
+      <p><strong>Fenerbahçe</strong> from Turkey 🇹🇷 beat mighty <strong>Liverpool</strong> 3–2 in an amazing upset! The Anfield giants were stunned — proving that in football, ANY team can win on the right day! 💥</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">💪🔵</span>
+      <span class="card-tag blue-tag">Champions League</span>
+      <div class="score-badge">MAN CITY 3–2 RB LEIPZIG</div>
+      <h4>Haaland Rides to the Rescue Again! 🚀</h4>
+      <p><strong>Erling Haaland</strong> did what Haaland does best — scored a clutch goal to rescue <strong>Manchester City</strong> from a scare at RB Leipzig! 🇩🇪 The Norwegian superstar saves the day once more! ⚡</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">🔴⚪</span>
+      <span class="card-tag green-tag">Champions League</span>
+      <div class="score-badge green">ARSENAL 2–1 SLAVIA PRAGUE</div>
+      <h4>Arsenal Fly Through in Prague! ✈️</h4>
+      <p><strong>Arsenal</strong> stayed strong with a solid 2–1 win away at <strong>Slavia Prague</strong> 🇨🇿! The Gunners kept their cool on the road and grabbed all 3 points. Looking sharp this season! 🎯</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">🟡⚫</span>
+      <span class="card-tag blue-tag">Champions League</span>
+      <div class="score-badge">DORTMUND 2–1 REAL BETIS</div>
+      <h4>Dortmund Stay Hot at Home! 🔥</h4>
+      <p><strong>Borussia Dortmund</strong> kept the yellow wall rocking with a 2–1 win over Spain's <strong>Real Betis</strong>! 🇩🇪🏟️ The legendary Signal Iduna Park crowd was absolutely bouncing. Yellow fever! 💛</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">🏴‍☠️💥</span>
+      <span class="card-tag blue-tag">Champions League</span>
+      <div class="score-badge">PORTO 4–1 NAPOLI</div>
+      <h4>Porto Go Wild — Four Goals! 🎊</h4>
+      <p>Portuguese powerhouse <strong>FC Porto</strong> 🇵🇹 hammered Italian side <strong>Napoli</strong> 4–1 at Estádio do Dragão! Four goals, one massive statement — Porto are FLYING in Europe! 🐉</p>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- PREMIER LEAGUE -->
+  <div class="section-header">
+    <div class="accent-bar teal-bar"></div><span class="section-icon">🏴󠁧󠁢󠁥󠁮󠁧󠁿</span><h3>Premier League Weekend 🌧️⚽</h3>
+  </div>
+  <div class="grid-2">
+    <div class="card">
+      <span class="card-emoji">🤯🎢</span>
+      <span class="card-tag teal-tag">Premier League · England</span>
+      <div class="score-badge">MAN UTD 4–4 ASTON VILLA</div>
+      <h4>EIGHT Goals — The Most Bonkers Game of the Season! 🎉</h4>
+      <p><strong>Manchester United</strong> and <strong>Aston Villa</strong> played what might be the CRAZIEST match of 2026 — four goals each, leads changing hands, hearts in mouths! 😱 Old Trafford went absolutely mental. Eight goals, zero chill! 🎢</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">🔴💪</span>
+      <span class="card-tag teal-tag">Premier League · England</span>
+      <div class="score-badge green">LIVERPOOL 3–1 CRYSTAL PALACE</div>
+      <h4>Liverpool Bounce Back Brilliantly! ⚡</h4>
+      <p>After their Champions League shock, <strong>Liverpool</strong> came roaring back with a commanding 3–1 win at <strong>Crystal Palace</strong> 🦅! The Reds showed their class — a great response from a great team! 🌟</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">🌲😮</span>
+      <span class="card-tag teal-tag">Premier League · England</span>
+      <div class="score-badge">NOTTM FOREST 3–1 MAN CITY</div>
+      <h4>Forest Stun the Champions! 🌲</h4>
+      <p><strong>Nottingham Forest</strong> shocked the football world on Saturday — beating mighty <strong>Manchester City</strong> 3–1! 😮 One of the biggest upsets of the season so far! Robin Hood's town is celebrating tonight! 🏹</p>
+    </div>
+    <div class="card">
+      <span class="card-emoji">⬛⬜😤</span>
+      <span class="card-tag teal-tag">Premier League · England</span>
+      <div class="score-badge red">SUNDERLAND 1–0 CHELSEA</div>
+      <h4>Chelsea Stunned Up North! 😤</h4>
+      <p>Newly promoted <strong>Sunderland</strong> pulled off a massive shock — beating the big-spending <strong>Chelsea</strong> 1–0! 🔵 The Stadium of Light erupted! This is exactly why we love football — the little guys can always beat the big guys! ❤️</p>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- LA LIGA BONUS -->
+  <div class="section-header">
+    <div class="accent-bar amber-bar"></div><span class="section-icon">🇪🇸</span><h3>La Liga — Spanish Football 🌞</h3>
+  </div>
+  <div class="card-single">
+    <span class="card-emoji">🔴🔵</span>
+    <span class="card-tag amber-tag">La Liga · Spain</span>
+    <div class="score-badge" style="background:var(--amber-soft);color:var(--amber)">ATLÉTICO 1–1 BARCELONA</div>
+    <h4>The Madrid Derby Ends All Square! 🤝</h4>
+    <p>One of the best derbies in Spain — <strong>Atlético de Madrid</strong> vs <strong>Barcelona</strong>! 🌟 Both teams gave everything but neither could grab the win. A fair 1–1 draw that keeps the La Liga title race super tight! 🏆 The passion, the tackles, the drama — Spanish football at its best! 🔥</p>
+  </div>
+
+  <hr class="divider">
+
+  <!-- SCIENCE -->
+  <div class="section-header">
+    <div class="accent-bar purple-bar"></div><span class="section-icon">🔭</span><h3>Science Spotlight 🌌</h3>
+  </div>
+  <div class="card-single">
+    <span class="card-emoji">🛸✨</span>
+    <span class="card-tag purple-tag">Space Science · NASA</span>
+    <h4>Voyager 1 Is Now a Whole LIGHT-DAY Away From Earth! 🤯🌠</h4>
+    <p>NASA's <strong>Voyager 1</strong> spacecraft just hit a mind-blowing milestone 🚀 — it's now so incredibly far away that it takes a <strong>full 24 hours for light to travel from Earth to it</strong>! That distance is called a <strong>"light-day"</strong>! 💡 Remember — light travels at <strong>300,000 km every single second</strong> and it still takes a whole day! Voyager 1 launched in <strong>1977</strong> (before your grandparents were adults!) and is the most distant human-made object ever built. It has now left our solar system entirely 🌌 and is drifting through the space between stars! NASA is celebrating with a special event on November 17 called <strong>"Shine Bright for Voyager's Light-Day"</strong> ⭐ — go outside and look up at the stars that night! 🌠🔭</p>
+  </div>
+
+  <hr class="divider">
+
+  <!-- JOKES SECTION -->
+  <div class="section-header">
+    <div class="accent-bar blue-bar"></div><span class="section-icon">😂</span><h3>Joke Corner 😄🎉</h3>
+  </div>
+  <div class="jokes-section">
+    <div class="joke-box">
+      <span class="joke-emoji-big">⚽😂</span>
+      <div>
+        <p class="joke-label">⚽ Football Joke #1</p>
+        <p class="joke-text">Why did the soccer player bring string to the game? 🧵</p>
+        <p class="joke-punchline">So he could tie the score! 😄 Get it? TIE? 🧵⚽</p>
+      </div>
+    </div>
+    <div class="joke-box">
+      <span class="joke-emoji-big">👠😂</span>
+      <div>
+        <p class="joke-label">👠 Football Joke #2</p>
+        <p class="joke-text">Why can't Cinderella play soccer? 🏰</p>
+        <p class="joke-punchline">Because she always runs away from the ball! 😂 And her carriage turns into a pumpkin at midnight, which is not ideal for extra time! 🎃⏰</p>
+      </div>
+    </div>
+    <div class="joke-box">
+      <span class="joke-emoji-big">🦕😂</span>
+      <div>
+        <p class="joke-label">🦕 Science Joke</p>
+        <p class="joke-text">What do you call a dinosaur that scores every game? 🦖</p>
+        <p class="joke-punchline">A dino-SCORE! 🦕⚽ He never goes extinct because his shooting is TOO alive! 🔥😂</p>
+      </div>
+    </div>
+    <div class="joke-box">
+      <span class="joke-emoji-big">🌍😂</span>
+      <div>
+        <p class="joke-label">🌍 World Joke</p>
+        <p class="joke-text">Why is England the best football country? 🏴󠁧󠁢󠁥󠁮󠁧󠁿</p>
+        <p class="joke-punchline">Because even their rain wears a jersey! 🌧️⚽😂 (And it rains literally ALL the time, so the whole country is always in kit!)</p>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider">
+
+  <!-- DID YOU KNOW + QUIZ -->
+  <div class="amber-block">
+    <div class="section-header" style="margin-top:0">
+      <div class="accent-bar amber-bar"></div><span class="section-icon">🤩</span><h3>Did You Know? 🤔💡</h3>
+    </div>
+    <div class="fact-chip-single">
+      <span class="chip-emoji">⚽🌍</span>
+      <span class="chip-text">The <strong>Champions League</strong> is watched by over <strong>500 million people</strong> around the world every matchday! 😮 That means right now, while you're reading this, roughly the same number of people as the entire population of North and South America combined were watching the same game! 🌎🌍 Football is truly the world's game! ⚽❤️</span>
+    </div>
+    <p class="quiz-label">⚽ Football Geography Quiz 🌍</p>
+    <div class="quiz-question" id="q1">
+      <p>Como FC — who scored NINE goals this week — are from Italy 🇮🇹. Which Italian city is Como in? 🗺️</p>
+      <div class="quiz-choices">
+        <button class="choice-btn" data-correct="false" data-explain="Nope! Rome is in central Italy — famous for the Colosseum and pizza! 🍕🏛️ But Como is way up north near the Alps!">🏛️ Rome</button>
+        <button class="choice-btn" data-correct="true" data-explain="🎉 YES! Como is a beautiful city in northern Italy 🇮🇹, right next to the famous Lake Como — one of the most gorgeous lakes in the whole world! 🏔️💙 George Clooney even has a house there! 🌊">🏔️ Near Milan / Lake Como</button>
+        <button class="choice-btn" data-correct="false" data-explain="Naples is a great city in southern Italy — famous for inventing pizza! 🍕 But it's very far from Como, which is in the north near the Alps!">🍕 Naples</button>
+        <button class="choice-btn" data-correct="false" data-explain="Venice is the amazing city built on water with canals instead of roads! 🚤 Super cool — but Como is a different northern Italian city entirely!">🚤 Venice</button>
+      </div>
+      <div class="quiz-feedback" id="q1-feedback"></div>
+    </div>
+    <div class="quiz-score" id="quiz-score">
+      <span class="score-emoji" id="score-emoji"></span>
+      <div class="score-title" id="score-title"></div>
+      <div class="score-msg" id="score-msg"></div>
+      <button class="quiz-restart" onclick="restartQuiz()">🔄 Try Again!</button>
+    </div>
+  </div>
+
+  <footer class="footer" style="margin-top:2.2rem">
+    <strong>Plata Kids Daily News</strong> · Sunday, November 8, 2026 · Real news, written just for you 📰💙⚽✨
+  </footer>
+</main>
+<script>
+(function(){try{var s=localStorage.getItem('kd-theme');if(s){document.documentElement.setAttribute('data-theme',s);var b=document.querySelector('.theme-toggle');if(b)b.textContent=s==='dark'?'☀️':'🌙'}}catch(e){}})();
+function toggleTheme(){var h=document.documentElement;var isDark=h.getAttribute('data-theme')==='dark'||(!h.getAttribute('data-theme')&&window.matchMedia('(prefers-color-scheme:dark)').matches);var next=isDark?'light':'dark';h.setAttribute('data-theme',next);document.querySelector('.theme-toggle').textContent=next==='dark'?'☀️':'🌙';try{localStorage.setItem('kd-theme',next)}catch(e){}}
+var answered=false;
+document.getElementById('q1').querySelectorAll('.choice-btn').forEach(function(btn){btn.addEventListener('click',function(){if(answered)return;answered=true;var correct=btn.getAttribute('data-correct')==='true';var explain=btn.getAttribute('data-explain');document.getElementById('q1').querySelectorAll('.choice-btn').forEach(function(b){b.disabled=true;if(b.getAttribute('data-correct')==='true')b.classList.add('correct')});if(!correct)btn.classList.add('wrong');var fb=document.getElementById('q1-feedback');fb.textContent=explain;fb.style.display='block';setTimeout(function(){var sc=document.getElementById('quiz-score');document.getElementById('score-emoji').textContent=correct?'🏆':'🌍';document.getElementById('score-title').textContent=correct?'Brillante! You got it! 🎉':'Nice try — keep exploring! 💙';document.getElementById('score-msg').textContent=correct?'Como is a gorgeous city next to Lake Como in northern Italy — with the Alps as its backdrop! 🏔️🇮🇹':'No worries! Como sits in northern Italy near the stunning Lake Como and the Alps! 🏔️💙';sc.style.display='block';sc.scrollIntoView({behavior:'smooth',block:'nearest'})},500)})});
+function restartQuiz(){answered=false;document.getElementById('q1').querySelectorAll('.choice-btn').forEach(function(b){b.disabled=false;b.classList.remove('correct','wrong')});document.getElementById('q1-feedback').style.display='none';document.getElementById('quiz-score').style.display='none'}
+</script>
+<script>
+if('serviceWorker' in navigator){
+  window.addEventListener('load',()=>{
+    navigator.serviceWorker.register('/sw.js').catch(()=>{});
+  });
+}
+</script></body></html>
